@@ -4,39 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message Generator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f8ff;
-        }
-        .container {
-            text-align: center;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        .message {
-            margin-top: 20px;
-            font-size: 20px;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the Message Generator</h1>
-        <button id="generateMessage">Generate Message</button>
-        <div class="message" id="message"></div>
+        <h1>How has your day been?</h1>
+        <button id="generateMessage">Let me tell you...</button>
+        <div class="message" id="message""></div>
     </div>
-    <script src="mixedMessages.js"></script>
+    <script type="module" src="mixedMessages.js"></script>
 </body>
 </html>
